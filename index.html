@@ -7,14 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>UP & DOWN</h1>
-   <h2>숫자 맞추기 게임을 시작합니다!</h2>
-   <p>마시고 마시고~ 마시면서 배우는 술게임</p>
-   <p>과연 결과는? <span id="comment"></span></p>
-   <p>남은 기회는? <span id="chancesText">10번</span></p>
-   <input type="number" id="inputNum">
-   <button id="startButton">시작</button>
-   <button id="resetButton">처음부터</button>
+   <div class="section1">
+       <div class="head">
+           <h1>UP & DOWN</h1>
+           <h2>숫자 맞추기 게임을 시작합니다!</h2>
+       </div>
+       <div class="subHead">
+           <p>마시고 마시고~ 마시면서 배우는 술게임</p>
+           <p>다음 타자는 누구?</p>
+       </div>
+       <div class="image">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MjNfMjc3%2FMDAxNjI0NDUwODM4NDE2.Szxm6AsguLfdJbWa3nE4ZMmn7ukZjRiwJ0GJcIAA5CMg.lC5T2uOoYC4BDDkrlV2LnARyu0512AaBnF_QG0MoRC8g.JPEG.hayun1310%2FIMG_5460.JPG&type=sc960_832">
+       </div>
+       <div class="resultZone">
+           <p>과연 결과는? <span id="comment"></span></p>
+           <p>남은 기회는? <span id="chancesText">10번</span></p>
+       </div>
+       <div class="gameZone">
+           <input type="number" id="inputNum">
+           <button id="startButton">시작</button>
+           <button id="resetButton">처음부터</button>
+       </div>
+   </div>
 
     <script src="main.js"></script>
 </body>
